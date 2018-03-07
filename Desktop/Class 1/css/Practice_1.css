@@ -20,6 +20,37 @@ body text{
 nav select {
  display: none;
 }
+
+.container {
+  display: grid; 
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px auto;
+}
+
+.item-1{
+	background: blue;
+  	grid-column-start: 3;
+  	grid-column-end: 4;
+  	grid-row-start: 1;
+  	grid-row-end: 3;
+}
+
+.item-2 {
+	background: red;
+  	grid-column-start: 1;
+  	grid-column-end:  6;
+  	grid-row-start: 2;
+  	grid-row-end:  2;
+}
+.item-3 {
+	background: green;
+  	grid-column-start: 1;
+  	grid-column-end: 2;
+  	grid-row-start: 1;
+  	grid-row-end:  2;
+}
+
+
 @media screen and (max-width: 960px){
 	
 }
