@@ -20,8 +20,37 @@ body text{
 nav select {
  display: none;
 }
+.container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+  	grid-template-rows: 25% 50% 25%;
+}
 
-.container {
+.object-1{
+	background: silver;
+	grid-column-start: 1;
+  	grid-column-end: 2;
+  	grid-row-start: 1;
+  	grid-row-end:  span 1;
+}
+.object-2{
+	background: gray;
+	grid-column-start: 2;
+  	grid-column-end: 3;
+  	grid-row-start: 2;
+  	grid-row-end:  span 2;
+}
+
+.object-3{
+	background: silver;
+	grid-column-start: 3;
+  	grid-column-end: 4;
+  	grid-row-start: 2;
+  	grid-row-end:  span 2;
+}
+
+
+.container2 {
   display: grid; 
   grid-template-columns: 40px 50px auto 50px 40px;
   grid-template-rows: 25% 100px auto;
@@ -55,7 +84,7 @@ nav select {
 	
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
 	body text{
 		color: red
 	}
