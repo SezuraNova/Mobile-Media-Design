@@ -1,0 +1,54 @@
+html {
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 16px;
+
+    color: rgb(70,70,85);
+
+    overflow-x: hidden;
+}
+h3{
+	text-align: center;
+}
+header nav ul{
+	display: inline;
+ }
+body text{
+	color: green;
+
+}
+nav select {
+ display: none;
+}
+@media screen and (max-width: 960px){
+	
+}
+
+@media screen and (max-width: 480px) {
+	body text{
+		color: red
+	}
+	nav select {
+ 		display: inline;
+	}
+	nav ul {
+ 		display: none;
+	}
+   	header nav li {
+			margin: 0;
+			background: #efefef;
+			display: block;
+			margin-bottom: 3px;
+			text-align: center;
+			}
+			 	header nav a {
+					display: block;
+					padding: 10px;
+					text-align: center;
+					}		
+}
+@media screen and (max-width:240px) {
+	body text{
+		color: blue
+	}
+}
