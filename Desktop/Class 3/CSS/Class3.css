@@ -1,0 +1,108 @@
+html {
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 16px;
+
+    color: black;
+
+    overflow-x: hidden;
+}
+
+
+.containerGrid{
+	display: grid;
+	grid-template-columns: auto auto auto;
+  	grid-template-rows: repeat(10,auto);
+}
+
+.itemGridHeader{
+	grid-column-start: 1;
+  	grid-column-end: span 3;
+  	grid-row-start: 3;
+  	grid-row-end:  span 1;
+}
+
+.itemGridSubHeader{
+	border-top: 2px solid black;
+	grid-column-start: 1;
+  	grid-column-end: span 3;
+  	grid-row-start: 1;
+  	grid-row-end:  span 1;
+}
+
+.itemGridLine1{
+	grid-column-start: 1;
+  	grid-column-end: span 3;
+  	grid-row-start: 2;
+  	grid-row-end:  span 1;
+}
+
+.itemGrid1{
+	grid-column-start: 1;
+  	grid-column-end: span 3;
+  	grid-row-start: 4;
+  	grid-row-end:  span 1;
+}
+
+.itemGrid2{
+	grid-column-start: 1;
+  	grid-column-end: span 3;
+  	grid-row-start: 5;
+  	grid-row-end:  span 1;
+}
+.itemGrid3{
+	grid-column-start: 1;
+  	grid-column-end: span 3;
+  	grid-row-start: 6;
+  	grid-row-end:  span 1;
+}
+.itemGrid4{
+	grid-column-start: 1;
+  	grid-column-end: span 3;
+  	grid-row-start: 7;
+  	grid-row-end:  span 1;
+}
+.itemGrid5{
+	grid-column-start: 1;
+  	grid-column-end: span 3;
+  	grid-row-start: 8;
+  	grid-row-end:  span 1;
+}
+
+.ContainerFlex{
+	display: flex;
+	flex-direction: row;
+	border-bottom: 2px solid black;
+	justify-content: space-evenly; 
+}
+
+.itemflex1{
+	order: 2;
+	flex-basis: 30%;
+	font-size: 1.5rem;
+	font-weight: bold;
+
+}
+
+.itemflex2{
+	order: 3;
+	flex-basis: 30%;
+}
+
+.itemflex3{
+	order: 1;
+	flex-basis: 30%;
+}
+.itemflex4{
+	flex-basis: 90%;
+	text-align: justify;
+	color: white;
+	font-size: 10vw;
+	font-weight: bold;
+}
+
+
+
+html {
+ background: red;
+}
