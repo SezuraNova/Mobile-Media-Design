@@ -45,8 +45,8 @@ nav select {
 	background: silver;
 	grid-column-start: 3;
   	grid-column-end: 4;
-  	grid-row-start: 2;
-  	grid-row-end:  span 2;
+  	grid-row-start: 1;
+  	grid-row-end:  span 1;
 }
 
 
