@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     var windowsize = 0;
     // Here we set a variable as nothing, so that we can refer to it, and change the value, at a later point. It is global - outside of a function - so we can use it anywhere else in this script.
-
+    
     function checkWidth() {
         // This is a function, a discrete block of code that we can write once and then reuse as many times as we like.
 

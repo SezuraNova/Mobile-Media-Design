@@ -83,7 +83,7 @@ header h3 {
     font-weight: 800;
     /* Font-weight is how we make text lighter, or more bold. You can use keywords, or numerical values from 100 - 900 (round to the hundred). 100 is the lightest possible weight, 900 the boldest. Not all fonts provide all weights, so some trial and error is best here. */
 
-    border: solid 4px rgba(200,50,42,0.8);
+    border: solid 4px rgba(214, 0, 0,0.8);
     /* This puts an even border all the way around the element - a solid line (you can also use "dashed"), that is 4px thick (you can use any CSS values here), and with the colour rgba(200,50,42,0.8) - so it's also slightly translucent. */
 
     padding: 5px 10px 5px 10px;
@@ -100,7 +100,7 @@ header h3 {
     height: 70vh;
     /* "vh" and "vw" are "Viewport Height" and "Viewport Width" - these values are expressed as percentages of how tall or wide your viewport is, so dynamically change size with the browser or screen. This example is 70% of the viewport height. */
 
-    background-image: url(editedTwitterPic.jpg);
+    background-image: url(editedTwitterPic.png);
 
     /* This sets an image from a URL to be the background of an element. You should avoid linking directly to other people's sites/images nearly always - it's bad practice, and can be illegal. (I have linked to my own site for this example) */
 
@@ -209,24 +209,25 @@ a {
 }
 
 .example-1{
-
     background-image: url(MediaExample.jpeg);
     /*https://qz.com/1039910/how-facebooks-news-feed-algorithm-sells-our-fear-and-outrage-for-profit/*/
     background-size: 100% 100%;
+    background-position: center;
 }
 .example-2{
-
     background-image: url(CambridgeAnalytica.png);
     /*Source: https://cambridgeanalytica.org/*/
     background-size: 100% 100%;
+    background-position: center;
 }
 .example-3{
-    
     background-image: url(brainAttentionEconomy.jpg);
     /*Source:http://humanetech.com/problem/*/
     background-size: 100% 100%;
+    background-position: center;
 
 }
+
 footer {
     position: absolute;
     /* This lets us place an element very specifically, independent of all other elements - it removes it from "the flow", in correct speak. */
@@ -239,12 +240,12 @@ footer {
     overflow: hidden;
     /* This tells the browser to cut off everything that falls outside this element, and not let the user scroll to it. */
 
-    color: rgb(70,70,85);
+    color: rgb(255,255,255);
 
-    border-top: solid 1px rgb(0,117,215);
+    border-top: solid 1px rgb(0,0,0);
     /* This sets a border on the element, but only on the top. You can have seperate borders for each side, or declare for all with just "border". */
 
-    background-color: #d4d4f5;
+    background-color: rgba(214, 0, 0, 0.85);
 }
 
 footer h5 {
