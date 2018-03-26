@@ -290,17 +290,7 @@ footer h5 {
         transform: scale(1.05);
         /* This will increase the element's (+ its children) size evenly while it is hovered over. */
 
-        box-shadow: 0px 0px 25px -10px rgba(25,35,25,0.35);
+        box-shadow: 0px 0px 25px -10px rgba(25,35,25,0.1);
         /* Because we added the box shadow earlier, we can now make it appear when the user hovers over the element, by  */
-    }
-
-    .body-flex > a:nth-of-type(2):hover {
-        background-color: rgb(150,240,250);
-    }
-
-    .body-flex > a:nth-of-type(3):hover {
-        color: white;
-        box-shadow: inset 0 -400px 0 0 rgb(120,0,255), 0px 0px 25px -10px rgba(25,35,25,0.35);
-        /* This (with the standard non-hover state and transition) is a little trick for making an animated hover effect of something filling. */
     }
 }
